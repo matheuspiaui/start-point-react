@@ -7,7 +7,7 @@ import { Provider } from 'react-redux';
 import store from './store';
 
 // Style Global -- add bulma
-import './assets/style-global.css'
+import './assets/style-global.scss'
 
 // Pages
 import App from './pages/app/App';

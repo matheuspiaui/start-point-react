@@ -1,26 +1,27 @@
 import React, { Component } from 'react';
+import style from '../../assets/style-global.scss';
 
 class BulmaPage extends Component {
     render() {
         return (
             <div>
-                <h1 class="title">
+                <h1 className={style.title}>
                     Bulma
                 </h1>
 
-                <p class="subtitle">
+                <p className={style.subtitle}>
                     Modern CSS framework based on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Flexbox</a>
                 </p>
 
-                <div class="field">
-                    <div class="control">
-                        <input class="input" type="text" placeholder="Input" />
+                <div className={style.field}>
+                    <div className={style.control}>
+                        <input className={style.input} type="text" placeholder="Input" />
                     </div>
                 </div>
 
-                <div class="field">
-                    <p class="control">
-                        <span class="select">
+                <div className={style.field}>
+                    <p className={style.control}>
+                        <span className={style.select}>
                             <select>
                                 <option>Select dropdown</option>
                             </select>
@@ -28,9 +29,10 @@ class BulmaPage extends Component {
                     </p>
                 </div>
 
-                <div class="buttons">
-                    <a class="button is-primary">Primary</a>
-                    <a class="button is-link">Link</a>
+                <div className={style.buttons}>
+                    <a className={`${style.button} ${style.is-primary}`}
+                    >Primary</a>
+                    <a className={`${style.button} ${style.is-link}`}>Link</a>
                 </div>
 
             </div>
