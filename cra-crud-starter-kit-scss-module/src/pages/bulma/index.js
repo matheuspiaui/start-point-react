@@ -30,9 +30,9 @@ class BulmaPage extends Component {
                 </div>
 
                 <div className={style.buttons}>
-                    <a className={`${style.button} ${style.is-primary}`}
+                    <a className={`${style.button} ${style.isPrimary}`}
                     >Primary</a>
-                    <a className={`${style.button} ${style.is-link}`}>Link</a>
+                    <a className={`${style.button} ${style.isLink}`}>Link</a>
                 </div>
 
             </div>
