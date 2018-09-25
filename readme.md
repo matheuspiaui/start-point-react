@@ -27,5 +27,6 @@ Este repositório contem um `backend` feito com o [Feathers](http://feathersjs.c
  - [x] node-sass-chokidar
  - [x] bulma
  - [x] semantic-ui
+ - [x] css-modules
  - [ ] [material-design](https://github.com/material-components/material-components-web)
  - [ ] CSS in JS
