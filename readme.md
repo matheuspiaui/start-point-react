@@ -28,5 +28,6 @@ Este repositório contem um `backend` feito com o [Feathers](http://feathersjs.c
  - [x] bulma
  - [x] semantic-ui
  - [x] css-modules
+ - [x] style jsx
  - [ ] [material-design](https://github.com/material-components/material-components-web)
  - [ ] CSS in JS
